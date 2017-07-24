@@ -12,6 +12,6 @@ else {
     if(isset($url[1])) {
         $controller->$url[1]();
     }
+    return;
 }
-
 ?>

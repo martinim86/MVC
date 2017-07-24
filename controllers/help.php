@@ -6,7 +6,7 @@ class Help {
     }
     public function other($arg = false) {
         echo "Мы в методе other контроллера Help";
-        echo "Параметры: ".$arg;
+        echo "Параметры 123: ".$arg;
     }
 
 
